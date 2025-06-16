@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>FORMULAIRE DE COMMANDE</title>
+</head>
+<style>
+    body{
+        background-color: rgb(2, 2, 2);
+    }
+    .contact-form {
+    max-width: 500px;
+    margin: auto;
+    background: gold;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+
+  .contact-form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  .contact-form button {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #1a73e8;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  .contact-form button:hover {
+    background-color: #3bb615;
+  }
+  footer{
+    background-color: white;
+    
+  }
+</style>
+<body>
+    <h1 style="color: gold;"><strong>Passez Commande</strong></h1><br> <br>
+<br> <br>
+
+    <form class="contact-form" action="https://formspree.io/f/xpwdeldr" method="POST">
+        <label for="nom du client">Nom du client :</label>
+        <input type="text" id="nom" name="nom du client" required><br><br>
+      
+        <label for="adresse">ADRESSE :</label>
+        <input type="text" id="adresse" name="adresse" required><br><br>
+      
+        <label for="telephone">Numéro de téléphone :</label>
+        <input type="tel" id="telephone" name="telephone" required><br><br>
+        <label for="nom du client">Nom de l'article :</label>
+        <input type="text" id="nom" name="nom de l'article" required><br><br>
+
+        <label for="telephone">Numéro de l'article :</label>
+        <input type="tel" id="Numéro" name="Numéro"><br><br>
+        <label for="Option">couleur</label>
+        <select name="Option" id="Option" >
+          <option value="bleu">Bleu</option>
+          <option value="Vert">Vert</option>
+          <option value="Orange">Orange</option>
+          <option value="Rouge">Rouge</option>
+          <option value="Noir">Noir</option>
+          <option value="Blanc">Blanc</option>
+        </option>
+        </select><br>
+    
+        <button type="submit"><strong>Commander</strong></button>
+</form>
+        <br> <br><br> <br>
+    
+        <center><h2 style="color: gold;">MERCI D'AVOIR CHOISI MHJ BUSINESS</h2></center>
+        <br> <br>
+        <footer>
+          &copy;MHJ BUSNESS  ALL RIGHT RESERVED  <img src="phone-call-auricular-symbol-in-black_icon-icons.com_56483.png" width="10px">+243
+      </footer>
+</body>
+</html>
